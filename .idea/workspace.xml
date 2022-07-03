@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90dd1b7c-2903-4d10-ba52-eee2f19c83f7" name="Changes" comment="Mājasdarbs" />
+    <list default="true" id="90dd1b7c-2903-4d10-ba52-eee2f19c83f7" name="Changes" comment="Mājasdarbs">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/InventoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObject/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutOverviewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/CheckoutSuccessPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/InventoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjectsHomework/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classroomSeven/SeleniumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/seleniumHomework/sauceDemoTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classroomSix/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FirstSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classroomSix/FirstSeleniumTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,25 +66,21 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Toms\majasdarbs\TomsJekabsonsTestAutomation" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="classroomSix" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.MavenTest">
-    <configuration name="MavenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.MavenTest" />
+  <component name="RunManager" selected="TestNG.sauceDemoTests">
+    <configuration name="SeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TomsJekabsonsTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mavenTestNGHomework.*" />
+          <option name="PATTERN" value="classroomSeven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TomsJekabsonsTestAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
+      <option name="PACKAGE_NAME" value="classroomSeven" />
+      <option name="MAIN_CLASS_NAME" value="classroomSeven.SeleniumTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -77,28 +88,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTestNG" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTest.successFullLoginTestPageObject" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TomsJekabsonsTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mavenTestNGHomework.*" />
+          <option name="PATTERN" value="classroomSeven.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
-      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.CalculatorTestNG" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstSeleniumTest.checkPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TomsJekabsonsTestAutomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstSeleniumTest" />
-      <option name="METHOD_NAME" value="checkPageTitle" />
+      <option name="PACKAGE_NAME" value="classroomSeven" />
+      <option name="MAIN_CLASS_NAME" value="classroomSeven.SeleniumTest" />
+      <option name="METHOD_NAME" value="successFullLoginTestPageObject" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -106,17 +106,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OtraisUzdevums" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="sauceDemoTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TomsJekabsonsTestAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mavenTestNGHomework.*" />
+          <option name="PATTERN" value="seleniumHomework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mavenTestNGHomework" />
-      <option name="MAIN_CLASS_NAME" value="mavenTestNGHomework.OtraisUzdevums" />
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sauceDemoTests.otraisTestaScenārijs" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TomsJekabsonsTestAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
+      <option name="METHOD_NAME" value="otraisTestaScenārijs" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sauceDemoTests.pirmaisTestaScenarijs" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TomsJekabsonsTestAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seleniumHomework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seleniumHomework" />
+      <option name="MAIN_CLASS_NAME" value="seleniumHomework.sauceDemoTests" />
+      <option name="METHOD_NAME" value="pirmaisTestaScenarijs" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -125,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MavenTest" />
-        <item itemvalue="TestNG.OtraisUzdevums" />
-        <item itemvalue="TestNG.CalculatorTestNG" />
-        <item itemvalue="TestNG.FirstSeleniumTest.checkPageTitle" />
-        <item itemvalue="TestNG.CalculatorTest" />
+        <item itemvalue="TestNG.sauceDemoTests" />
+        <item itemvalue="TestNG.sauceDemoTests.otraisTestaScenārijs" />
+        <item itemvalue="TestNG.sauceDemoTests.pirmaisTestaScenarijs" />
+        <item itemvalue="TestNG.SeleniumTest" />
+        <item itemvalue="TestNG.SeleniumTest.successFullLoginTestPageObject" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656250429200</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mājasdarbs">
+      <created>1656250576810</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656250576810</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
