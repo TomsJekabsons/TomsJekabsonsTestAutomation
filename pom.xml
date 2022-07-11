@@ -50,6 +50,19 @@
             <artifactId>jfiglet</artifactId>
             <version>0.0.9</version>
         </dependency>
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>7.4.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-testng</artifactId>
+            <version>7.4.1</version>
+        </dependency>
+
     </dependencies>
 
 </project>
